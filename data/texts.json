@@ -1,0 +1,164 @@
+[
+  {
+    "id":"clausula-reajuste","title":"La cláusula que se mueve","category":"Derecho","difficulty":1,"world":"literal",
+    "content":[
+      "El contrato fija una renta mensual de 40 unidades. La cláusula octava dispone que el monto se reajustará cada seis meses según la variación acumulada del índice oficial de precios, siempre que esa variación supere el dos por ciento.",
+      "Si la variación es igual o inferior al dos por ciento, el reajuste se posterga y se acumula para el período siguiente. El arrendador no puede aplicar un indicador distinto ni cambiar la periodicidad mediante un aviso unilateral.",
+      "Al cuarto mes, el arrendador comunica un aumento del cinco por ciento basado en el alza estimada de los costos de mantención. La arrendataria objeta que todavía no se cumple el plazo contractual."
+    ],
+    "keyPhrases":["cada seis meses","variación acumulada del índice oficial","no puede aplicar un indicador distinto"],
+    "glossary":[{"term":"reajuste","definition":"Modificación de una cantidad conforme a un criterio previamente definido."},{"term":"unilateral","definition":"Decidido por una sola de las partes."}],
+    "questions":[
+      {"id":"cr-1","type":"multiple","prompt":"¿Qué condición temporal exige la cláusula para reajustar?","options":[{"id":"a","label":"Que transcurran seis meses."},{"id":"b","label":"Que transcurran cuatro meses."},{"id":"c","label":"Que el arrendador envíe un aviso."},{"id":"d","label":"Que aumenten los costos de mantención."}],"answer":"a","explanation":"El plazo expreso es semestral; el aviso no puede modificarlo.","hint":"Busca una expresión de periodicidad en el primer párrafo.","evidence":"cada seis meses","skill":"literal"},
+      {"id":"cr-2","type":"true-false","prompt":"El contrato permite usar el costo de mantención como indicador alternativo.","options":[{"id":"verdadero","label":"Verdadero"},{"id":"falso","label":"Falso"}],"answer":"falso","explanation":"La cláusula exige el índice oficial y prohíbe cambiarlo unilateralmente.","hint":"Revisa la última oración del segundo párrafo.","evidence":"no puede aplicar un indicador distinto","skill":"literal"},
+      {"id":"cr-3","type":"synthesis","prompt":"¿Cuál es el mejor resumen del conflicto?","options":[{"id":"a","label":"Las partes discuten si la renta inicial era demasiado alta."},{"id":"b","label":"El arrendador intenta adelantar y cambiar el reajuste pactado; la arrendataria exige aplicar plazo e indicador contractuales."},{"id":"c","label":"La arrendataria rechaza todo reajuste futuro."},{"id":"d","label":"El índice oficial subió exactamente cinco por ciento."}],"answer":"b","explanation":"La opción conserva los dos puntos centrales: plazo e indicador.","hint":"Una síntesis fiel debe incluir qué hizo cada parte y por qué discrepan.","skill":"synthesis"}
+    ],
+    "estimatedTime":6,"rewards":{"xp":120,"relic":"Sello de precisión"}
+  },
+  {
+    "id":"sentencia-motivada","title":"La sentencia y sus razones","category":"Derecho","difficulty":2,"world":"literal",
+    "content":[
+      "El tribunal tuvo por acreditado que la autoridad notificó la sanción, pero no entregó al afectado el informe técnico que la sustentaba. La defensa solicitó acceso al documento antes de formular descargos y la petición fue rechazada sin explicación.",
+      "La sentencia anuló la sanción. Señaló que el derecho a defensa no se satisface con una oportunidad puramente formal de responder: quien desconoce el antecedente decisivo no puede controvertirlo de manera efectiva.",
+      "El tribunal aclaró que no evaluaba si el informe técnico era correcto. Su decisión se limitaba al defecto del procedimiento y ordenó que la autoridad reiniciara la etapa de descargos con acceso completo al expediente."
+    ],
+    "keyPhrases":["no entregó al afectado el informe técnico","oportunidad puramente formal","se limitaba al defecto del procedimiento"],
+    "glossary":[{"term":"descargos","definition":"Argumentos y antecedentes presentados para defenderse de una imputación."},{"term":"controvertir","definition":"Discutir fundadamente una afirmación o prueba."}],
+    "questions":[
+      {"id":"sm-1","type":"multiple","prompt":"¿Qué hecho fue decisivo para anular la sanción?","options":[{"id":"a","label":"El informe técnico contenía errores de cálculo."},{"id":"b","label":"La sanción nunca fue notificada."},{"id":"c","label":"Se negó acceso al antecedente decisivo antes de los descargos."},{"id":"d","label":"La defensa presentó sus argumentos fuera de plazo."}],"answer":"c","explanation":"La anulación se funda en la imposibilidad de controvertir el informe.","hint":"Distingue el defecto procesal del mérito técnico.","evidence":"no entregó al afectado el informe técnico","skill":"literal"},
+      {"id":"sm-2","type":"thesis","prompt":"¿Qué frase expresa mejor la razón decisoria?","options":[{"id":"a","label":"Todo informe técnico emitido por una autoridad es incorrecto."},{"id":"b","label":"La defensa solo es efectiva si puede conocer y discutir el antecedente usado para sancionar."},{"id":"c","label":"Las sanciones administrativas son siempre desproporcionadas."},{"id":"d","label":"La notificación basta para respetar el procedimiento."}],"answer":"b","explanation":"Esa opción conecta el hecho probado con la anulación.","hint":"Busca la regla que el tribunal utiliza para pasar de los hechos a la decisión.","skill":"argument"},
+      {"id":"sm-3","type":"multiple","prompt":"En este contexto, ¿qué significa «controvertir» el informe?","options":[{"id":"a","label":"Ocultarlo antes de la audiencia."},{"id":"b","label":"Discutir fundadamente su contenido y valor."},{"id":"c","label":"Copiarlo sin formular observaciones."},{"id":"d","label":"Aceptar sus conclusiones como definitivas."}],"answer":"b","explanation":"El contexto conecta conocimiento del antecedente con la posibilidad de discutirlo eficazmente.","hint":"Usa la relación entre acceso, defensa y respuesta.","skill":"vocabulary"},
+      {"id":"sm-4","type":"true-false","prompt":"El tribunal declaró que el informe técnico era materialmente incorrecto.","options":[{"id":"verdadero","label":"Verdadero"},{"id":"falso","label":"Falso"}],"answer":"falso","explanation":"La sentencia excluye expresamente esa evaluación.","hint":"Lee la primera oración del último párrafo.","evidence":"no evaluaba si el informe técnico era correcto","skill":"literal"}
+    ],
+    "estimatedTime":7,"rewards":{"xp":150,"relic":"Lente de hechos"}
+  },
+  {
+    "id":"testigo-ascensor","title":"El testigo del ascensor","category":"Literatura","difficulty":2,"world":"inferential",
+    "content":[
+      "A las 22:10, Vera entró sola al ascensor del edificio judicial con una carpeta azul. La cámara del piso doce dejó de transmitir durante cuarenta segundos. Cuando la imagen volvió, Vera ya no estaba y la carpeta descansaba abierta en el suelo.",
+      "El registro del ascensor muestra que la cabina no se detuvo entre el primer y el duodécimo piso. El guardia afirmó que nadie salió al vestíbulo, aunque reconoció que durante el corte miraba una alarma en su teléfono.",
+      "A la mañana siguiente, una hoja de la carpeta apareció bajo la puerta de la oficina 1204. La oficina estaba vacía desde hacía meses, pero su cerradura tenía una marca reciente y metálica."
+    ],
+    "keyPhrases":["no se detuvo entre el primer y el duodécimo piso","miraba una alarma en su teléfono","marca reciente y metálica"],
+    "glossary":[{"term":"vestíbulo","definition":"Espacio de entrada y distribución de un edificio."},{"term":"indicio","definition":"Dato que permite apoyar una conclusión cuando se relaciona con otros."}],
+    "questions":[
+      {"id":"ta-1","type":"multiple","prompt":"¿Qué debilita directamente la afirmación del guardia?","options":[{"id":"a","label":"La carpeta era azul."},{"id":"b","label":"La cámara estuvo sin transmitir."},{"id":"c","label":"El guardia no observó continuamente el vestíbulo."},{"id":"d","label":"La oficina estaba en el piso doce."}],"answer":"c","explanation":"Su propia declaración reconoce una interrupción de atención.","hint":"Evalúa la calidad de su observación, no su intención.","evidence":"miraba una alarma en su teléfono","skill":"critical"},
+      {"id":"ta-2","type":"multiple","prompt":"¿Qué inferencia está mejor apoyada?","options":[{"id":"a","label":"Vera desapareció por un fenómeno sobrenatural."},{"id":"b","label":"Alguien accedió recientemente a la oficina 1204 o manipuló su cerradura."},{"id":"c","label":"El guardia robó la carpeta."},{"id":"d","label":"La cámara fue apagada por Vera."}],"answer":"b","explanation":"La hoja y la marca reciente apoyan acceso o manipulación; las otras opciones exceden la evidencia.","hint":"Elige la conclusión que requiere menos supuestos adicionales.","skill":"inference"},
+      {"id":"ta-3","type":"synthesis","prompt":"¿Cuál es la lectura más prudente del episodio?","options":[{"id":"a","label":"Los registros son incompletos y existen indicios de intervención en el piso doce, pero no permiten identificar responsable."},{"id":"b","label":"Vera planeó todo y es culpable."},{"id":"c","label":"El ascensor nunca llegó al piso doce."},{"id":"d","label":"La hoja fue colocada meses antes."}],"answer":"a","explanation":"Resume evidencia y límite inferencial sin convertir sospecha en certeza.","hint":"Una buena conclusión también dice qué no puede saberse.","skill":"synthesis"}
+    ],
+    "estimatedTime":7,"rewards":{"xp":165,"relic":"Hilo inferencial"}
+  },
+  {
+    "id":"biblioteca-ecos","title":"La biblioteca de los ecos","category":"Literatura","difficulty":3,"world":"inferential",
+    "content":[
+      "Cada medianoche, la guardiana recorría la biblioteca y dejaba una lámpara encendida frente al único libro que nadie había solicitado. Decía que era una medida contra la humedad, aunque las demás salas permanecían oscuras y secas.",
+      "Durante años, el libro no cambió de lugar. La noche en que llegó una investigadora preguntando por el antiguo catálogo de voces, la guardiana apagó la lámpara antes de la ronda y trasladó el volumen a la mesa de devoluciones.",
+      "Cuando la investigadora se marchó, la guardiana encontró una ficha nueva dentro del libro. No tenía título ni autor. Solo una fecha: la del día siguiente."
+    ],
+    "keyPhrases":["el único libro que nadie había solicitado","apagó la lámpara","trasladó el volumen"],
+    "glossary":[{"term":"catálogo","definition":"Registro ordenado de las obras o materiales de una colección."},{"term":"coartada","definition":"Explicación destinada a apartar sospechas sobre una conducta."}],
+    "questions":[
+      {"id":"be-1","type":"multiple","prompt":"¿Qué sugiere el cambio de rutina de la guardiana?","options":[{"id":"a","label":"Que olvidó el recorrido habitual."},{"id":"b","label":"Que la llegada de la investigadora volvió relevante ocultar o desplazar el libro."},{"id":"c","label":"Que la humedad desapareció esa noche."},{"id":"d","label":"Que el libro había sido solicitado muchas veces."}],"answer":"b","explanation":"La coincidencia temporal y la acción deliberada conectan la visita con el libro.","hint":"Compara lo que hizo durante años con lo que hace esa noche.","skill":"inference"},
+      {"id":"be-2","type":"true-false","prompt":"El texto confirma que la guardiana conoce el origen de la ficha.","options":[{"id":"verdadero","label":"Verdadero"},{"id":"falso","label":"Falso"}],"answer":"falso","explanation":"El hallazgo se narra, pero no se atribuye conocimiento sobre su origen.","hint":"Distingue lo observado de lo explicado.","skill":"literal"},
+      {"id":"be-3","type":"thesis","prompt":"¿Qué idea organiza mejor el relato?","options":[{"id":"a","label":"Las bibliotecas deben controlar la humedad."},{"id":"b","label":"Una rutina aparentemente trivial puede encubrir vigilancia o protección de información."},{"id":"c","label":"Las investigadoras siempre devuelven tarde los libros."},{"id":"d","label":"Los catálogos carecen de utilidad."}],"answer":"b","explanation":"La lámpara, el libro y el cambio de conducta giran en torno a esa tensión.","hint":"Busca una idea que explique todos los detalles recurrentes.","skill":"synthesis"}
+    ],
+    "estimatedTime":8,"rewards":{"xp":190,"relic":"Eco encapsulado"}
+  },
+  {
+    "id":"sesgo-confirmacion","title":"Protocolo contra el sesgo","category":"Academico","difficulty":3,"world":"argumental",
+    "content":[
+      "Cuando una persona formula una hipótesis, suele buscar información que la confirme y examinar con menor rigor la evidencia contraria. Esta tendencia, llamada sesgo de confirmación, no implica que toda creencia previa sea falsa; describe una asimetría en la manera de evaluarla.",
+      "Un equipo puede reducir el problema si registra por adelantado qué observaciones contarían en contra de su hipótesis. También ayuda asignar a una persona la tarea de construir la mejor explicación rival, en vez de limitarse a criticar detalles aislados.",
+      "Estas medidas no garantizan objetividad perfecta. Su valor consiste en volver visible el proceso de revisión y aumentar el costo de ignorar datos incómodos."
+    ],
+    "keyPhrases":["asimetría en la manera de evaluarla","qué observaciones contarían en contra","no garantizan objetividad perfecta"],
+    "glossary":[{"term":"asimetría","definition":"Diferencia de tratamiento entre elementos comparables."},{"term":"hipótesis rival","definition":"Explicación alternativa capaz de dar cuenta de los mismos datos."}],
+    "questions":[
+      {"id":"sc-1","type":"thesis","prompt":"¿Cuál es la tesis principal?","options":[{"id":"a","label":"Toda creencia previa es falsa."},{"id":"b","label":"El sesgo de confirmación puede mitigarse mediante procedimientos que obliguen a considerar evidencia contraria y alternativas."},{"id":"c","label":"La objetividad perfecta se obtiene asignando un crítico."},{"id":"d","label":"Las hipótesis rivales deben eliminarse pronto."}],"answer":"b","explanation":"Integra el diagnóstico y la propuesta sin prometer infalibilidad.","hint":"La tesis debe abarcar los tres párrafos.","skill":"argument"},
+      {"id":"sc-2","type":"premise","prompt":"¿Qué afirmación funciona como apoyo de la propuesta?","options":[{"id":"a","label":"Registrar criterios contrarios obliga a definir de antemano qué podría refutar la hipótesis."},{"id":"b","label":"Toda hipótesis es una opinión privada."},{"id":"c","label":"Los datos incómodos siempre son falsos."},{"id":"d","label":"La crítica elimina cualquier sesgo."}],"answer":"a","explanation":"Explica por qué el procedimiento puede corregir la evaluación asimétrica.","hint":"Busca una razón que conecte la medida con el problema.","skill":"argument"},
+      {"id":"sc-3","type":"true-false","prompt":"El texto sostiene que las medidas propuestas garantizan objetividad completa.","options":[{"id":"verdadero","label":"Verdadero"},{"id":"falso","label":"Falso"}],"answer":"falso","explanation":"El último párrafo niega expresamente esa garantía.","hint":"Atiende al límite que introduce el último párrafo.","skill":"critical"}
+    ],
+    "estimatedTime":8,"rewards":{"xp":210,"relic":"Filtro de premisas"}
+  },
+  {
+    "id":"regla-y-caso","title":"La regla y el caso","category":"Filosofia","difficulty":4,"world":"philosophical",
+    "content":[
+      "Una regla puede parecer precisa mientras solo se consideran ejemplos habituales. La dificultad aparece en los bordes: situaciones nuevas comparten algunos rasgos con los casos previstos y difieren en otros.",
+      "Aplicar la regla exige decidir cuáles rasgos son relevantes para su propósito. Esa decisión no autoriza a ignorar el texto, pero tampoco puede extraerse de las palabras como si cada término contuviera por anticipado todos sus usos futuros.",
+      "Por eso la interpretación responsable combina fidelidad lingüística, atención al propósito y comparación con casos. El desacuerdo no prueba por sí solo que la regla sea inútil; puede mostrar que sus criterios necesitan ser articulados con mayor precisión."
+    ],
+    "keyPhrases":["decidir cuáles rasgos son relevantes","no autoriza a ignorar el texto","combina fidelidad lingüística"],
+    "glossary":[{"term":"articular","definition":"Expresar y conectar una idea con suficiente precisión."},{"term":"caso límite","definition":"Situación que pone a prueba el alcance de una categoría o regla."}],
+    "questions":[
+      {"id":"rc-1","type":"thesis","prompt":"¿Qué tesis defiende el texto?","options":[{"id":"a","label":"Las reglas carecen de significado estable."},{"id":"b","label":"Aplicar reglas a casos nuevos requiere juicio guiado por texto, propósito y comparación."},{"id":"c","label":"El propósito siempre prevalece sobre las palabras."},{"id":"d","label":"Todo desacuerdo demuestra que una regla es inútil."}],"answer":"b","explanation":"La opción conserva el equilibrio entre restricciones y juicio.","hint":"Descarta las opciones absolutas que el propio texto limita.","skill":"critical"},
+      {"id":"rc-2","type":"multiple","prompt":"¿Qué función cumple el segundo párrafo?","options":[{"id":"a","label":"Presenta un ejemplo histórico."},{"id":"b","label":"Explica por qué la aplicación exige seleccionar rasgos relevantes sin abandonar el texto."},{"id":"c","label":"Niega que las palabras tengan significado."},{"id":"d","label":"Resume una decisión judicial."}],"answer":"b","explanation":"Desarrolla la dificultad introducida en el primer párrafo.","hint":"Pregunta qué añade al movimiento del argumento.","skill":"argument"},
+      {"id":"rc-3","type":"synthesis","prompt":"Elige la mejor paráfrasis de la conclusión.","options":[{"id":"a","label":"Interpretar es inventar una regla nueva para cada caso."},{"id":"b","label":"Una interpretación defendible explica cómo texto, finalidad y precedentes orientan la decisión, especialmente en casos límite."},{"id":"c","label":"Las palabras resuelven automáticamente todos los casos futuros."},{"id":"d","label":"El desacuerdo debe prohibirse."}],"answer":"b","explanation":"Reformula la conclusión sin eliminar sus elementos centrales.","hint":"Conserva las tres fuentes de orientación que enumera el texto.","skill":"synthesis"}
+    ],
+    "estimatedTime":9,"rewards":{"xp":235,"relic":"Compás hermenéutico"}
+  },
+  {
+    "id":"ciudad-esponja","title":"La ciudad que absorbe lluvia","category":"Academico","difficulty":3,"world":"argumental",
+    "content":[
+      "Una ciudad esponja no intenta expulsar toda el agua de lluvia con la máxima rapidez. Combina superficies permeables, jardines de infiltración y depósitos temporales para retener parte del caudal cerca del lugar donde cae.",
+      "El sistema reduce la presión sobre alcantarillas durante eventos intensos y puede recuperar humedad para áreas verdes. Sin embargo, su eficacia depende del suelo, del mantenimiento y de una red de drenaje que siga operando cuando la capacidad local se supera.",
+      "Por eso no reemplaza por completo la infraestructura convencional. La complementa y cambia el objetivo: desde evacuar inmediatamente hacia gestionar el agua en distintas escalas y tiempos."
+    ],
+    "keyPhrases":["retener parte del caudal","depende del suelo, del mantenimiento","no reemplaza por completo"],
+    "glossary":[{"term":"infiltración","definition":"Entrada del agua desde la superficie hacia el suelo."},{"term":"caudal","definition":"Cantidad de agua que atraviesa un punto durante un tiempo determinado."}],
+    "questions":[
+      {"id":"ce-1","type":"sequence","prompt":"Ordena la explicación causal del sistema.","options":[{"id":"c","label":"Disminuye la presión inmediata sobre la red."},{"id":"a","label":"La lluvia cae sobre el entorno urbano."},{"id":"d","label":"El excedente continúa hacia el drenaje convencional."},{"id":"b","label":"Parte del agua se infiltra o almacena localmente."}],"answer":["a","b","c","d"],"explanation":"La secuencia va del evento, a la retención, al efecto y finalmente al manejo del excedente.","hint":"Empieza por el hecho físico inicial y termina con lo que ocurre al superar la capacidad local.","skill":"synthesis"},
+      {"id":"ce-2","type":"true-false","prompt":"La ciudad esponja elimina la necesidad de drenaje convencional.","options":[{"id":"verdadero","label":"Verdadero"},{"id":"falso","label":"Falso"}],"answer":"falso","explanation":"El texto la presenta como complemento, no sustitución total.","hint":"Revisa la primera oración del último párrafo.","skill":"literal"},
+      {"id":"ce-3","type":"synthesis","prompt":"¿Cuál es la síntesis más fiel?","options":[{"id":"a","label":"La ciudad esponja retiene y gestiona parte de la lluvia mediante infraestructura distribuida, pero depende de condiciones locales y complementa el drenaje tradicional."},{"id":"b","label":"Los jardines resuelven por sí solos toda inundación urbana."},{"id":"c","label":"La única función del sistema es regar áreas verdes."},{"id":"d","label":"La estrategia consiste en evacuar el agua más rápido."}],"answer":"a","explanation":"Incluye mecanismo, límite y relación con la infraestructura existente.","hint":"No elimines las condiciones y límites del segundo párrafo.","skill":"synthesis"}
+    ],
+    "estimatedTime":8,"rewards":{"xp":215,"relic":"Mapa de síntesis"}
+  },
+  {
+    "id":"desacuerdo-razonable","title":"Desacuerdo bajo reglas","category":"Filosofia","difficulty":4,"world":"philosophical",
+    "content":[
+      "Dos lectores pueden aceptar las mismas palabras y discrepar sobre su aplicación porque asignan distinto peso a los antecedentes. Uno considera decisivo el uso técnico de una expresión; el otro privilegia la finalidad declarada por el documento.",
+      "El desacuerdo es razonable cuando cada lectura identifica su evidencia, explica el criterio que utiliza y responde a la principal objeción rival. Deja de serlo cuando selecciona solo los fragmentos favorables o atribuye al texto una afirmación incompatible con su estructura.",
+      "La calidad de una interpretación no depende de que elimine todo desacuerdo, sino de que haga visibles sus pasos y soporte una comparación crítica."
+    ],
+    "keyPhrases":["asignan distinto peso","responde a la principal objeción rival","haga visibles sus pasos"],
+    "glossary":[{"term":"criterio","definition":"Regla o razón utilizada para evaluar y decidir."},{"term":"objeción rival","definition":"Crítica central formulada desde una interpretación alternativa."}],
+    "questions":[
+      {"id":"dr-1","type":"multiple","prompt":"¿Cuándo considera el texto que un desacuerdo deja de ser razonable?","options":[{"id":"a","label":"Cuando existen dos interpretaciones."},{"id":"b","label":"Cuando una lectura oculta evidencia contraria o contradice la estructura textual."},{"id":"c","label":"Cuando se menciona la finalidad del documento."},{"id":"d","label":"Cuando se usa vocabulario técnico."}],"answer":"b","explanation":"El texto fija esos dos defectos como límites.","hint":"Busca el giro «deja de serlo».","skill":"literal"},
+      {"id":"dr-2","type":"premise","prompt":"¿Qué premisa sostiene la conclusión final?","options":[{"id":"a","label":"Toda palabra posee un único peso posible."},{"id":"b","label":"Una interpretación puede evaluarse comparando evidencia, criterios y respuestas a objeciones."},{"id":"c","label":"El desacuerdo impide cualquier evaluación."},{"id":"d","label":"La finalidad siempre derrota al uso técnico."}],"answer":"b","explanation":"Esa premisa permite medir calidad aun cuando persista el desacuerdo.","hint":"La conclusión necesita que exista algún modo público de comparar lecturas.","skill":"argument"},
+      {"id":"dr-3","type":"synthesis","prompt":"¿Qué recomendación práctica se deriva del texto?","options":[{"id":"a","label":"Declarar la conclusión sin mostrar el camino."},{"id":"b","label":"Citar solo los fragmentos que favorecen la propia posición."},{"id":"c","label":"Explicitar evidencia, criterio y respuesta a la objeción más fuerte."},{"id":"d","label":"Evitar toda interpretación que admita dudas."}],"answer":"c","explanation":"Resume el estándar de interpretación responsable propuesto.","hint":"Convierte los requisitos del segundo párrafo en una conducta de lectura.","skill":"critical"}
+    ],
+    "estimatedTime":9,"rewards":{"xp":250,"relic":"Balanza dialógica"}
+  },
+  {
+    "id":"contrato-ambiguo","title":"Caso 001: El contrato ambiguo","category":"Derecho","difficulty":4,"world":"jurist",
+    "content":[
+      "Hecho: una empresa encargó a Lumen el diseño de una plataforma. La cláusula quinta establece: «La versión operativa será entregada al cierre del trimestre, con las funciones esenciales acordadas». El anexo enumera acceso, búsqueda y exportación; no menciona el panel estadístico.",
+      "Correo previo: durante la negociación, la empresa preguntó si el panel estaría disponible. Lumen respondió: «Podemos incorporarlo en la siguiente iteración; para el primer cierre priorizaremos las tres funciones del anexo». La empresa no objetó y aprobó el cronograma.",
+      "Conducta posterior: Lumen entregó acceso, búsqueda y exportación el último día del trimestre. La empresa usó el sistema durante dos semanas y luego sostuvo que la entrega no era operativa porque faltaba el panel estadístico."
+    ],
+    "keyPhrases":["funciones esenciales acordadas","las tres funciones del anexo","aprobó el cronograma"],
+    "glossary":[{"term":"iteración","definition":"Ciclo sucesivo de desarrollo y mejora de un producto."},{"term":"conducta posterior","definition":"Comportamiento de las partes después de contratar, útil para comprender cómo ejecutaron el acuerdo."}],
+    "questions":[
+      {"id":"ca-1","type":"multiple","prompt":"¿Qué dato favorece más directamente la interpretación de Lumen?","options":[{"id":"a","label":"La empresa quería una plataforma moderna."},{"id":"b","label":"El correo separa el panel de las tres funciones previstas para el primer cierre."},{"id":"c","label":"La entrega ocurrió un viernes."},{"id":"d","label":"El panel estadístico sería útil."}],"answer":"b","explanation":"El correo aclara el alcance temporal de «funciones esenciales» y fue aceptado en el cronograma.","hint":"Busca una comunicación anterior que asigne el panel a otra etapa.","skill":"inference"},
+      {"id":"ca-2","type":"multiple","prompt":"¿Cuál es una opinión y no un hecho verificable del expediente?","options":[{"id":"a","label":"El anexo enumera tres funciones."},{"id":"b","label":"La empresa usó el sistema dos semanas."},{"id":"c","label":"La entrega sin panel fue jurídicamente intolerable."},{"id":"d","label":"Lumen entregó el último día del trimestre."}],"answer":"c","explanation":"Es una valoración que requiere justificación; las otras afirmaciones describen datos comprobables.","hint":"Identifica la frase evaluativa.","skill":"critical"},
+      {"id":"ca-3","type":"thesis","prompt":"¿Qué interpretación resulta mejor apoyada por el conjunto del expediente?","options":[{"id":"a","label":"El panel integraba necesariamente la primera entrega porque toda función útil es esencial."},{"id":"b","label":"La primera entrega comprendía las tres funciones del anexo y el panel quedó para una iteración posterior."},{"id":"c","label":"El contrato no exigía ninguna entrega."},{"id":"d","label":"La empresa perdió todo derecho por usar la plataforma."}],"answer":"b","explanation":"Integra cláusula, anexo, correo y aprobación del cronograma sin formular consecuencias absolutas.","hint":"La lectura más fuerte debe explicar todas las fuentes, no solo una palabra aislada.","skill":"argument"}
+    ],
+    "estimatedTime":10,"rewards":{"xp":280,"relic":"Llave de contexto"}
+  },
+  {
+    "id":"texto-opaco","title":"Boss: El protocolo de la excepción","category":"Derecho","difficulty":5,"world":"boss",
+    "content":[
+      "El reglamento permite acceder al archivo reservado cuando la persona solicitante demuestra un interés directo y la consulta no afecta una investigación vigente. Añade que, en situaciones urgentes, la dirección podrá autorizar acceso provisional antes de recibir todos los antecedentes.",
+      "Nadia pidió revisar un informe porque contenía una declaración atribuida a su empresa. Acompañó el registro de la investigación ya cerrada, pero no el documento que acreditaba su representación. La dirección rechazó la solicitud por incompleta sin examinar la urgencia alegada: una audiencia estaba fijada para la mañana siguiente.",
+      "El rechazo cita la regla general, pero no explica si la excepción provisional era aplicable ni por qué la falta de acreditación impedía subsanarla después. La cuestión no es si Nadia tenía derecho definitivo al acceso, sino si la autoridad justificó omitir el mecanismo excepcional previsto para decidir bajo urgencia."
+    ],
+    "keyPhrases":["acceso provisional","investigación ya cerrada","no explica si la excepción provisional era aplicable"],
+    "glossary":[{"term":"subsanar","definition":"Corregir o completar un defecto formal."},{"term":"provisional","definition":"Temporal y sujeto a una decisión posterior definitiva."},{"term":"interés directo","definition":"Vínculo concreto entre la persona solicitante y el asunto consultado."}],
+    "questions":[
+      {"id":"to-1","type":"multiple","prompt":"¿Qué requisito de la regla general aparece acreditado?","options":[{"id":"a","label":"La representación de la empresa."},{"id":"b","label":"Que la investigación ya no estaba vigente."},{"id":"c","label":"El derecho definitivo de acceso."},{"id":"d","label":"La inexistencia de urgencia."}],"answer":"b","explanation":"Nadia acompañó el registro de cierre; la representación estaba pendiente.","hint":"Distingue lo aportado de lo omitido.","skill":"literal"},
+      {"id":"to-2","type":"premise","prompt":"¿Qué premisa sostiene la crítica al rechazo?","options":[{"id":"a","label":"Toda solicitud urgente debe aceptarse definitivamente."},{"id":"b","label":"Si una norma contempla un mecanismo excepcional pertinente, la autoridad debe explicar por qué lo aplica o descarta."},{"id":"c","label":"Los requisitos formales nunca importan."},{"id":"d","label":"Una audiencia futura prueba la representación."}],"answer":"b","explanation":"La crítica es de motivación y examen de la excepción, no de concesión automática.","hint":"Busca la regla implícita que vuelve defectuoso guardar silencio sobre la excepción.","skill":"argument"},
+      {"id":"to-3","type":"sequence","prompt":"Ordena el razonamiento más sólido.","options":[{"id":"d","label":"Concluir que debía explicarse el descarte del acceso provisional."},{"id":"b","label":"Verificar que la investigación estaba cerrada y existía urgencia alegada."},{"id":"a","label":"Identificar la regla general y la excepción provisional."},{"id":"c","label":"Constatar que el rechazo solo aplicó la regla general por falta de representación."}],"answer":["a","b","c","d"],"explanation":"Primero se identifica el marco, luego los hechos, después la respuesta administrativa y finalmente la conclusión crítica.","hint":"No concluyas antes de comparar norma, hechos y decisión.","skill":"synthesis"},
+      {"id":"to-4","type":"synthesis","prompt":"¿Cuál es el diagnóstico final más preciso?","options":[{"id":"a","label":"Nadia tenía automáticamente derecho definitivo a todo el archivo."},{"id":"b","label":"La solicitud debía rechazarse porque faltaba cualquier interés directo."},{"id":"c","label":"El rechazo puede estar insuficientemente motivado porque no aborda la excepción urgente ni la posibilidad de subsanar, sin que eso decida aún el acceso definitivo."},{"id":"d","label":"La excepción elimina todos los requisitos del reglamento."}],"answer":"c","explanation":"Preserva el defecto identificado y el límite de la conclusión.","hint":"La última frase del texto distingue revisión de motivación y derecho definitivo.","skill":"critical"}
+    ],
+    "estimatedTime":12,"rewards":{"xp":420,"relic":"Núcleo del Umbral"}
+  }
+]

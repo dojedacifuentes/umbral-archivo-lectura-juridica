@@ -1,0 +1,11 @@
+{
+  "xp": 0,
+  "streak": 0,
+  "lastStudyDate": null,
+  "completedMissions": {},
+  "skillXp": {"literal":0,"inference":0,"vocabulary":0,"argument":0,"critical":0,"synthesis":0},
+  "unlockedAchievements": [],
+  "collectedRelics": [],
+  "soundEnabled": true,
+  "currentMissionId": null
+}

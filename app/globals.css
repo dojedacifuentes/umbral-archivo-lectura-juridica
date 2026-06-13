@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --void: #070711;
+  --cyan: #2cf7ff;
+  --pink: #ff3fbd;
+  --gold: #f4be5b;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--void); }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 14% 8%, rgba(255, 63, 189, 0.1), transparent 28rem),
+    radial-gradient(circle at 88% 18%, rgba(44, 247, 255, 0.08), transparent 30rem),
+    #070711;
+  font-family: "Cascadia Code", "IBM Plex Mono", Consolas, monospace;
+}
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+::selection { background: rgba(255, 63, 189, 0.45); color: white; }
+
+.font-serif { font-family: Georgia, "Times New Roman", serif; }
+.pixel-corners { clip-path: polygon(0 8px, 8px 8px, 8px 0, calc(100% - 8px) 0, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0 calc(100% - 8px)); }
+.pixel-border { box-shadow: inset 0 0 0 1px rgba(255,255,255,.025), 0 16px 45px rgba(0,0,0,.32); }
+.arcade-panel { background: linear-gradient(145deg, rgba(20,20,39,.94), rgba(8,9,21,.94)); border: 1px solid rgba(255,255,255,.1); }
+.arcade-panel::before { content: ""; display: block; height: 2px; background: linear-gradient(90deg, transparent, rgba(44,247,255,.8), rgba(255,63,189,.8), transparent); opacity: .6; }
+
+.city-layer, .grid-layer, .rain-layer, .scanlines { position: fixed; inset: 0; pointer-events: none; }
+.city-layer {
+  z-index: 0;
+  opacity: .24;
+  background:
+    linear-gradient(to top, rgba(7,7,17,.2), rgba(7,7,17,1) 68%),
+    linear-gradient(90deg, transparent 2%, #11182e 2% 7%, transparent 7% 10%, #151329 10% 15%, transparent 15% 20%, #0d1b26 20% 27%, transparent 27% 31%, #171126 31% 39%, transparent 39% 43%, #10172e 43% 49%, transparent 49% 55%, #19132e 55% 63%, transparent 63% 68%, #0b1c28 68% 74%, transparent 74% 78%, #17142d 78% 86%, transparent 86% 90%, #10182b 90% 97%, transparent 97%);
+  background-size: 100% 100%, 100% 42%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.grid-layer { z-index: 1; opacity: .14; background-image: linear-gradient(rgba(44,247,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(44,247,255,.08) 1px, transparent 1px); background-size: 54px 54px; mask-image: linear-gradient(to bottom, transparent 0, black 50%, black 100%); }
+.rain-layer { z-index: 2; opacity: .12; background-image: repeating-linear-gradient(103deg, transparent 0 24px, rgba(44,247,255,.35) 25px, transparent 26px 70px); background-size: 140px 200px; animation: rain 1.8s linear infinite; }
+.scanlines { z-index: 60; opacity: .08; background: repeating-linear-gradient(to bottom, transparent 0 3px, rgba(255,255,255,.15) 4px); mix-blend-mode: overlay; }
+
+.reader-paper { background: linear-gradient(145deg, rgba(18,19,34,.96), rgba(11,12,24,.96)); box-shadow: inset 20px 0 50px rgba(0,0,0,.12); }
+.reader-paper mark { background: rgba(244,190,91,.22); color: #ffe5a3; border-bottom: 1px solid rgba(244,190,91,.7); padding: 0 .12em; }
+.mission-card { position: relative; overflow: hidden; }
+.mission-card::after { content: ""; position: absolute; right: -30px; bottom: -45px; width: 110px; height: 110px; border: 1px solid rgba(44,247,255,.08); transform: rotate(45deg); }
+.glitch-title { position: relative; text-shadow: 3px 0 rgba(255,63,189,.55), -3px 0 rgba(44,247,255,.45); }
+.glitch-title::after { content: attr(data-text); position: absolute; inset: 0; clip-path: inset(58% 0 18% 0); transform: translateX(3px); color: white; opacity: .55; }
+.hud-label { font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: .22em; color: #71717a; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #080812; }
+::-webkit-scrollbar-thumb { background: #28233f; border: 2px solid #080812; }
+::-webkit-scrollbar-thumb:hover { background: #44355e; }
+
+@keyframes rain { from { background-position: 0 -200px; } to { background-position: 0 200px; } }
+@keyframes signal { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+.signal-pulse { animation: signal 1.8s steps(2) infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

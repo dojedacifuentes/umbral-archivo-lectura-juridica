@@ -1,0 +1,8 @@
+[
+  {"id":"archivo-abierto","title":"Archivo abierto","description":"Completa tu primera misión.","icon":"folder-key","condition":"first-mission"},
+  {"id":"triple-rastro","title":"Triple rastro","description":"Cierra tres expedientes.","icon":"route","condition":"three-missions"},
+  {"id":"lectura-limpia","title":"Lectura limpia","description":"Obtén 100% de precisión.","icon":"scan-line","condition":"perfect"},
+  {"id":"sin-interferencia","title":"Sin interferencia","description":"Completa una misión sin pistas.","icon":"eye","condition":"no-hints"},
+  {"id":"ritual-tres-dias","title":"Ritual de tres días","description":"Mantén una racha de tres días.","icon":"flame","condition":"streak-3"},
+  {"id":"mil-fragmentos","title":"Mil fragmentos","description":"Acumula 1000 XP.","icon":"gem","condition":"xp-1000"}
+]
