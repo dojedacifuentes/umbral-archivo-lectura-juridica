@@ -1,5 +1,7 @@
 # UMBRAL: Archivo de Lectura Juridica
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdojedacifuentes%2Fumbral-archivo-lectura-juridica)
+
 RPG educativo de comprension lectora juridica construido con Next.js, TypeScript,
 Tailwind CSS, Framer Motion y React Three Fiber. Todo el progreso se guarda de
 forma local y el contenido vive en JSON para facilitar una futura migracion a
@@ -37,3 +39,6 @@ dependencias.
 6. Pulsa Deploy.
 
 La versión de ejecución queda fijada en Node.js 24.x mediante `engines.node`.
+
+Repositorio listo para importar:
+https://github.com/dojedacifuentes/umbral-archivo-lectura-juridica
